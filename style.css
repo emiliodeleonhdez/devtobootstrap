@@ -1,0 +1,44 @@
+.article_logo {
+  /*         border-radius: 50%; */
+  width: 32px;
+  height: 32px;
+}
+
+article .tags {
+  font-size: .85rem;
+}
+
+article .articles-list_menu {
+  list-style: none;
+}
+
+article .articles-author_container {
+  color: gray;
+}
+
+article .articles-author_container p {
+  font-size: 12px;
+}
+
+article .articles-posts_menu a {
+  color: black;
+}
+
+article .post_img_minions {
+  max-width: 100%;
+  height: auto;
+}
+
+article textarea {
+  max-width: 100%;
+  height: auto;
+}
+
+article a:link {
+  text-decoration: none;
+}
+
+article a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

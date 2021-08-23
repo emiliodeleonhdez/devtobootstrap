@@ -94,6 +94,19 @@ article a {
   text-decoration: none;
 }
 
+article a:visited {
+  text-decoration: none;
+}
+
+article a:focus,
+article a:hover {
+  color: #323ebe !important;
+}
+
+article .articles-posts_menu a:hover {
+  background-color: lightgray;
+}
+
 .posts-read_next_inner-container img {
   width: 48px;
   height: 48px;

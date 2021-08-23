@@ -1,3 +1,55 @@
+.navbar .form-inline {
+  max-width: 340px;
+}
+
+.form-inline__btn-search {
+  right: 0;
+}
+
+.form-inline__input:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  border-bottom-width: .15em;
+  border-right-width: .15em;
+  border-color: #3b49df;
+  caret-color: #3b49df;
+}
+
+.btn-dev {
+  background-color: #3b49df;
+  border-color: #3b49df;
+}
+
+.btn-dev:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.user-menu {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  border-top-width: 0.15em;
+  border-left-width: 0.15em;
+  border-bottom-width: 0.3em;
+  border-right-width: 0.3em;
+  border-color: black !important;
+  caret-color: black;
+  min-width: 320px;
+  right: 0;
+}
+
+.container-user:hover .btn {
+  border-color: gray;
+}
+
+.container-user:hover .card {
+  visibility: visible !important;
+}
+
+li:hover {
+  background-color: #918989;
+}
+
 .article_logo {
   /*         border-radius: 50%; */
   width: 32px;
@@ -40,5 +92,10 @@ article a:link {
 
 article a {
   text-decoration: none;
+}
+
+.posts-read_next_inner-container img {
+  width: 48px;
+  height: 48px;
 }
 /*# sourceMappingURL=style.css.map */

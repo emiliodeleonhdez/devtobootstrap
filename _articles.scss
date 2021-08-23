@@ -39,6 +39,13 @@ article{
     a{
         text-decoration: none;
     }
+    a:visited{
+        text-decoration: none;
+    }
+    a:focus,
+    a:hover{
+        color:rgb(50, 62, 190)!important;
+    }
 
 }
 //_articles END//

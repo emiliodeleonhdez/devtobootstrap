@@ -94,6 +94,20 @@ article a {
   text-decoration: none;
 }
 
+article a:visited {
+  text-decoration: none;
+}
+
+article a:focus,
+article a:hover {
+  color: #323ebe !important;
+}
+
+.posts-read_next_inner-container img {
+  width: 48px;
+  height: 48px;
+}
+
 .aside-right_forem {
   border-radius: 4px;
   -webkit-box-shadow: 0 0 0 1px #08090a0d;
@@ -319,8 +333,5 @@ article a {
   color: #323ebe;
   -webkit-transition: .2s;
   transition: .2s;
-.posts-read_next_inner-container img {
-  width: 48px;
-  height: 48px;
 }
 /*# sourceMappingURL=style.css.map */

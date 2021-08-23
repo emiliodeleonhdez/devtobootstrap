@@ -1,51 +1,19 @@
-//_articles START//
-.article_logo{
-    /*         border-radius: 50%; */
-            width: 32px;
-            height: 32px;
-        }
-article{
-
-    .tags{
-        font-size: .85rem;
-    }
-    .articles-list_menu{
-        list-style: none;
-    }
-    .articles-author_container{
-        color: gray;
-        p{
-            font-size: 12px;
-        }
-    }
-    .articles-posts_menu{
-        a{
-            color: black;
-
-        }
-    }
-    .post_img_minions{
-        max-width: 100%;
-        height: auto;
-    }
-
-    textarea{
-        max-width: 100%;
-        height: auto;
-    }
-    a:link{
-        text-decoration: none;
-    }
-    a{
-        text-decoration: none;
-    }
-}
-//_articles END//
-
 //_Navbar import_//
 @import "navbar";
 //_navbar_end_//
 
-.bg-footer {
-    background-color: rgb(210, 214, 219);
-}
+//_aside_left import_//
+@import "_aside-left";
+//_aside_left_end_//
+
+//_articles import_//
+@import "_articles";
+//_articles_end_//
+
+//_posts import_//
+@import "_posts";
+//_posts_end_//
+
+//_aside-right import_//
+@import "_aside-right";
+//_aside-right_end_//

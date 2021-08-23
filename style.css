@@ -319,5 +319,8 @@ article a {
   color: #323ebe;
   -webkit-transition: .2s;
   transition: .2s;
+.posts-read_next_inner-container img {
+  width: 48px;
+  height: 48px;
 }
 /*# sourceMappingURL=style.css.map */

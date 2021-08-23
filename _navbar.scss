@@ -46,5 +46,6 @@ $color-border-input-hover: rgb(59, 73, 223);
 }
 .container-user:hover .card {
   visibility: visible!important;
+  z-index: 999;
 }
 // https://webdesign.tutsplus.com/es/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069

@@ -48,6 +48,11 @@ article{
     }
     .articles-posts_menu{
         a:hover{
+            background-color:lighten($color: #3b49df , $amount: 30%);
+        }
+    }
+    .articles-reactions{
+        a:hover{
             background-color:lightgray;
         }
     }

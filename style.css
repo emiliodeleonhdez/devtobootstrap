@@ -103,6 +103,10 @@ article a:hover {
   color: #323ebe !important;
 }
 
+article .articles-posts_menu a:hover {
+  background-color: lightgray;
+}
+
 .posts-read_next_inner-container img {
   width: 48px;
   height: 48px;
@@ -112,21 +116,21 @@ article a:hover {
   border-radius: 4px;
   -webkit-box-shadow: 0 0 0 1px #08090a0d;
           box-shadow: 0 0 0 1px #08090a0d;
-  max-width: 85%;
+  max-width: 100%;
   overflow-wrap: normal;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0 .5rem 0 .5rem;
-  margin: 0 auto;
+  margin: 0;
   overflow-wrap: normal;
   background-color: inherit;
 }
 
 .aside-right_forem .aside-right_forem_img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: auto;
+  width: 6rem;
+  display: inline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

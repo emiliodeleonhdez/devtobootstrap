@@ -105,6 +105,10 @@ article a:hover {
 }
 
 article .articles-posts_menu a:hover {
+  background-color: #bfc3f4;
+}
+
+article .articles-reactions a:hover {
   background-color: lightgray;
 }
 

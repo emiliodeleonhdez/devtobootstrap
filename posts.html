@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +9,271 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menuContainer"></div>
+    <div class="menuContainer"><nav class="navbar navbar-expand-lg navbar-light bg-white px-0">
+  <div class="container-xl flex-nowrap">
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand px-2 bg-dark text-white text-uppercase mr-md-3" href="#">Dev</a>
+    <form class="form-inline position-relative w-100 d-none d-md-block">
+      <input class="form-control w-100 bg-light form-inline__input" type="text" placeholder="Search...">
+      <button class="btn position-absolute form-inline__btn-search" type="submit"><i class="bi bi-search"></i></button>
+    </form>
+    <div class="ml-auto mr-3 d-flex align-items-center">
+      <a href="#" class="text-dark p-2 mx-1 d-md-none"><i class="bi bi-search"></i></a>
+      <a href="#" class="btn btn-dev mx-1 text-capitalize text-white font-weight-bold d-none d-md-block">Create post</a>
+      <a href="#" class="text-dark p-2 mx-1"><i class="bi bi-chat"></i></a>
+      <a href="#" class="text-dark p-2 mx-1"><i class="bi bi-bell"></i></a>
+      <div class="position-relative container-user">
+        <button class="btn p-1 rounded-circle"><img class="border rounded-circle" style="width: 32px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--IE_xy5Z2--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/687862/948f7eac-4fc8-40e6-8d62-9bc835b2a478.png" alt=""></button>
+        <div class="card position-absolute w-100 invisible user-menu">
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link text-dark"><span class="font-weight-bold">UserNick</span><small class="d-block text-muted">@UserNick</small></a></li>
+            <div class="dropdown-divider"></div>
+            <li class="nav-item"><a href="#" class="nav-link text-dark">Dashboard</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-dark">Create post</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-dark">Reading list</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-dark">Settings</a></li>
+            <div class="dropdown-divider"></div>
+            <li class="nav-item"><a href="#" class="nav-link text-dark text-capitalize">Sing out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></div>
     <main class="container">
         <div class="row">
-            <div class="col d-none d-lg-block aside-left_container-post"></div>
-            <div class="col-lg-7 col-12 articles_container-post">
+            <div class="col d-none d-lg-block aside-left_container-post">
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      
+        <li class="flex-xs-fill text-sm-center nav-link" href="#">
+            <img src="svg/favorite_border_black_24dp.svg">
+          <p>12</p></li>
+        <li class="flex-xs-fill text-sm-center nav-link" href="#">
+            <img src="svg/bedroom_baby_black_24dp.svg">
+          <p>5</p></li>
+        <li class="flex-xs-fill text-sm-center nav-link" href="#">
+            <img src="svg/bookmark_border_black_24dp.svg">
+          <p>4</p></li>
+        <li class="flex-xs-fill text-smcenter nav-link" href="#">
+            <img src="svg/more_horiz_black_24dp.svg">
+        </li>    
+      </nav>
+
+
+</div>
+            <div class="col-lg-7 col-12 articles_container-post"><div class="card mb-0">
+    <img src="./images/frontEndDevRoadmap.webp" class="card-img-top" alt="...">
+    <div class="card-body p-2">
+      <h3 class="card-title">Zero to Hero: Front End Developer Roadmap</h3>
+      <div class="post_tags_container container-fluid d-flex justify-content-start p-0">
+          <a href="" class="bg-primary mr-2 rounded text-white">#webdev</a>
+          <a href="" class="bg-danger mr-2 rounded text-white">#html</a>
+          <a href="" class="bg-info mr-2 rounded text-white">#css</a>
+          <a href="" class="bg-warning rounded text-white">#javascript</a>
+      </div>
+      <div class="post_author_container container-fluid d-flex p-0 mb-3">
+        <img class="article_logo rounded-circle align-self-center" src="./images/84e49851-d0da-4b98-9483-bb157f9e531f.jpeg" alt="">
+        <h6 class="m-0 ml-1 mr-3">Tapajyoti Bose</h6>
+        <span class="text-muted mr-3">22 ago.</span>
+        <span class="text-muted">° 6 min read</span>
+      </div>
+      <!-- Just an image -->
+    <div class="container bg-light border border-light rounded mb-3">
+        <div class="border border-light h6 text-primary">Noob to Pro (2 Part Series)</div>
+        <div class="border border-light">Zero to Hero: Get started with Open Source Projects</div>
+        <div class="border border-light">Zero to Hero: Front End Developer Roadmap</div>
+    </div>
+      <p class="card-text">With so many languages, frameworks, and libraries to choose from, often beginners find themselves scratching their heads on how to start off their development journey. This article aims to demystify the process and provide you the perfect roadmap to becoming the Amazing Front End Developer.</p>
+      <p>Let's get started...</p>
+      <div class="container img_container_minions d-flex justify-content-center">
+        <img class="img-fluid rounded" src="./images/minions.gif" alt="">
+      </div>
+      <h1>Good to Know Stuff</h1>
+      <p>These skills are not necessary, but they definitely will help you on your journey.</p>
+      <ol>
+        <li>How does the <strong>Internet</strong> work?</li>
+        <li>What is <strong>HTTP</strong></li>
+        <li>How do <strong>Browsers</strong> work?</li>
+      </ol>
+      <div>
+        <img class="img-fluid" src="./images/computadoraazul.jpg" alt="">
+      </div>
+      <h1>Basics</h1>
+      <p>Now let's start off with the basics.</p>
+      <ol>
+        <li><strong>HTML</strong></li>
+        <p>HTML is the foundation of Front End Web Development. One thing I notice is beginners trying to learn all HTML tags; you DON'T need to know all tags, for now, just the following would do:</p>
+        <ol>
+          <li><strong>HTML</strong> document structure</li>
+          <li>Basic tags such as html, head, title, body, form, input, p, h(1-6), etc. would suffice for now.</li>
+        </ol>
+        <li><strong>CSS</strong></li>
+        <p>Once you learn <strong>HTML</strong>, you will be able to create a website, but it will definitely look unprofessional. Now it's time to add life to it using CSS. For starters, you could focus on only the basics:</p>
+        <ol>
+          <li>Basic <strong>CSS Selectors</strong></li>
+          <p>Selecting an element is the stepping stone to get started with CSS.</p>
+          <img src="./images/css_codigo.PNG" class="img-fluid" alt="">
+          <li><strong>Box Model</strong></li>
+          <p><strong>CSS</strong> uses the <strong>Box Model</strong> to organize the different sections of <strong>all elements</strong></p>
+          <img src="./images/box_model.png" class="img-fluid" alt="">
+        </ol>
+      </ol>
+      <div class="container bg-light border border-light rounded mb-3">
+        <div class="border border-light h6 text-primary">Noob to Pro (2 Part Series)</div>
+        <div class="border border-light">Zero to Hero: Get started with Open Source Projects</div>
+        <div class="border border-light">Zero to Hero: Front End Developer Roadmap</div>
+    </div>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <!-- //Section of commets// -->
+  <div class="card container-fluid">
+    <div class="posts-comments_container container-fluid d-flex justify-content-between mt-1">
+      <div><h5 class="align-self-center">Discussion (7)</h5></div>
+      <button class="btn btn-light align-self-center">Suscribe</button>
+    </div>
+    <div class="post-add-comments_container d-flex ml-3 mb-3">
+        <img class="article_logo rounded-circle align-self-top mr-3" src="./images/84e49851-d0da-4b98-9483-bb157f9e531f.jpeg" alt="">
+        <textarea placeholder="Add to the discussion" onfocus="handleFocus(event)" onkeyup="handleKeyUp(event)" onkeydown="handleKeyDown(event)" oninput="handleChange(event)" id="text-area" required="required" class="crayons-textfield comment-textarea crayons-textfield--ghost" aria-label="Add a comment to the discussion" name="comment[body_markdown]"></textarea>
+    </div>
+    <div class="post-user-inner_container container mb-3">
+      <div class="post-user-comment_container d-flex ml-1">
+        <img class="article_logo rounded-circle align-self-top" src="./images/84e49851-d0da-4b98-9483-bb157f9e531f.jpeg" alt="">
+        <div class="card ml-3" style="max-width: 65rem;">
+          <div class="card-body">
+            <div class="container d-flex p-0">
+              <p class="text-muted"><strong> Anjan Shomodder</strong></p>
+              <p class="text-muted"> ° Aug22</p>
             </div>
-            <div class="aside-right_container_article col-lg-3 d-none d-lg-block">
+            <p class="card-text">Great information. I believe people should focus on the important stuff. Beginners waste a lot of time spending on topics that don't give much value.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ml-5">
+        <a href=""><img src="./svg-images/Reactions.svg" alt=""><span class="text-muted">11</span><span class="text-muted d-none d-md-inline"> reactions</span></a>
+        <a href=""><img src="./svg-images/Comments.svg" alt=""><span class="text-muted"></span><span class="text-muted d-none d-md-inline"> reply</span></a>  
+      </div>
+    </div>
+    <div class="post-user-inner_container container mb-3">
+      <div class="post-user-comment_container d-flex ml-1">
+        <img class="article_logo rounded-circle align-self-top" src="./images/franciscoMendes.webp" alt="">
+        <div class="card ml-3" style="max-width: 65rem;">
+          <div class="card-body">
+            <div class="container d-flex p-0">
+              <p class="text-muted"><strong> Francisco Mendes</strong></p>
+              <p class="text-muted"> ° Aug22</p>
             </div>
+            <p class="card-text">It's all about the fundamentals. Thank you for reminding everyone of that.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ml-5">
+        <a href=""><img src="./svg-images/Reactions.svg" alt=""><span class="text-muted">17</span><span class="text-muted d-none d-md-inline"> reactions</span></a>
+        <a href=""><img src="./svg-images/Comments.svg" alt=""><span class="text-muted">1</span><span class="text-muted d-none d-md-inline"> reply</span></a>  
+      </div>
+    </div>
+    <div class="post-user-inner_container container mb-3">
+      <div class="post-user-comment_container d-flex ml-1">
+        <img class="article_logo rounded-circle align-self-top" src="./images/da7a617c-9287-40bc-b4d6-cf99d762bedf.jpeg" alt="">
+        <div class="card ml-3" style="max-width: 65rem;">
+          <div class="card-body">
+            <div class="container d-flex p-0">
+              <p class="text-muted"><strong>Amol Bhandare</strong></p>
+              <p class="text-muted"> ° Aug21</p>
+            </div>
+            <p class="card-text">Great information! From this article I found that I still quite beginner to become a Front end expert. With this roadmap actually help me a lot to define what can I do in this field! Thanks 🙏</p>
+          </div>
+        </div>
+      </div>
+      <div class="ml-5">
+        <a href=""><img src="./svg-images/Reactions.svg" alt=""><span class="text-muted">1</span><span class="text-muted d-none d-md-inline"> reactions</span></a>
+        <a href=""><img src="./svg-images/Comments.svg" alt=""><span class="text-muted">1</span><span class="text-muted d-none d-md-inline"> reply</span></a>  
+      </div>
+    </div>
+  </div>
+  <!-- //END - Section of commets// -->
+  <!-- READ NEXT -->
+  <div class="card mt-3">
+    <h5 class="ml-3 mt-3">Read Next</h5>
+    <div class="container p-0">
+      <div class="posts-read_next_inner-container container-fluid mt-3 d-flex">
+        <img class="article_logo rounded-circle align-self-center mr-3" src="./images/readnext1.webp" alt="">
+        <h4>Styled-Components : Efficiently write CSS in JS File.</h4>
+      </div>
+    </div>
+    <p class="text-muted mx-0 ml-5">Ankur Kumar - Aug 20</p>
+    <div class="container p-0">
+      <div class="posts-read_next_inner-container container-fluid mt-3 d-flex">
+        <img class="article_logo rounded-circle align-self-center mr-3" src="./images/efccb0e4-6c4d-4dd3-ba13-12e7a7302c5a.webp" alt="">
+        <h4>The Most Efficiente Ways to Clone objects in JavaScript.</h4>
+      </div>
+    </div>
+    <p class="text-muted ml-5">Shadid Haque - Aug 20</p>
+    <div class="container p-0">
+      <div class="posts-read_next_inner-container container-fluid mt-3 d-flex">
+        <img class="article_logo rounded-circle align-self-center mr-3" src="./images/de566f5e-2b0f-41fa-b47a-6fe1cb5eebb8.webp" alt="">
+        <h4>SSuper Ultimate guida to Regex in 2021 (how to use in JavaScript).</h4>
+      </div>
+    </div>
+    <p class="text-muted ml-5">devbookmark - Aug 20</p>
+    <div class="container p-0">
+      <div class="posts-read_next_inner-container container-fluid mt-3 d-flex">
+        <img class="article_logo rounded-circle align-self-center mr-3" src="./images/5d35cc3e-1891-4ee9-9ea3-c0bd0368c079.webp" alt="">
+        <h4>Exploring JavaScript consol object and logging!</h4>
+      </div>
+    </div>
+    <p class="text-muted ml-5">TheDailyTechTalk - Aug 19</p>
+  </div>
+</div>
+            <div class="aside-right_container_article col-lg-3 d-none d-lg-block">                <!-- CARD USER -->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header"></div>
+                    <img src="data:image/jpeg;base64,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" class="rounded-circle article_logo-aside" alt="">
+                    <h5 class="card-title-aside-right">Tapajyoti Bose</h5>
+
+                    <button class="btn-large btn-aside-right">Follow</button>
+                    <div class="card-body">                      <p class="card-text">A Canadian software developer who thinks he’s funny. He/Him.</p>
+                    </div>
+                    <ul class=" list-group-flush">
+                      <li class=""><small class="text-muted">LOCATION</small><br> NY</li>
+                      <li class=""><small class="text-muted">EDUCATION</small><br> Mount Allison University</li>
+                      <li class=""><small class="text-muted">WORK</small><br> Founder and Co-CEO at Forem</li>
+                      <li class=""><small class="text-muted">JOINED</small><br> 26 dic 2015</li>
+                    </ul>
+                  </div>
+                  <!-- CARD MORE OF USER -->
+                  <div class="card-moreof" style="width: 18rem;">
+                    <div class="card-header-moreof">
+                      <p>
+                        More from <span>
+                          Tapajyoti Bose
+                        </span> 
+                      </p>
+                    </div>
+                    <ul class="list-group-flush">
+                      <li class="">The longterm Benefits of Effective Product Development</li>
+                      <li class="">How much of a role should "enthusiasm" play in the software development process?</li>
+                      <li class="">What does "agile" mean these days?</li>
+                    </ul>
+                  </div></div>
         </div>
     </main>
-    <footer class="footer_container bg-footer py-5"></footer>
+    <footer class="footer_container bg-footer py-5"><div class="container-lg text-center">
+    <div class="container-footer mx-5 p-2">
+        <p class="text-black-50"><a href="https://dev.to" class="text-dark font-weight-bold">DEV Community</a> – A constructive and inclusive social network for software developers. With you every step of your journey.</p>
+        <p class="text-black-50">Built on <a href="https://www.forem.com/" class="font-weight-bold text-dark">Forem</a> — the <a href="https://dev.to/t/opensource" class="text-dark font-weight-bold">open source</a> software that powers <a href="https://dev.to/" class="text-dark font-weight-bold">DEV</a> and other inclusive communities.</p>
+        <p class="text-black-50">Made with love and <a href="https://dev.to/t/rails" class="text-dark font-weight-bold">Ruby on Rails</a>. DEV Community © 2016 - 2021.</p>
+        <a href="https://www.forem.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-labelledby="a2g8cslburs43v69lxzcqkhsth6klj6" class="crayons-icon crayons-icon--default"><title id="a2g8cslburs43v69lxzcqkhsth6klj6">Forem logo</title>
+                <g clip-path="url(#clip0)" fill="#1AB3A6"><path d="M4.603 1.438a8.056 8.056 0 017.643 5.478 8.543 8.543 0 00-3.023 5.968H8.054C3.606 12.884 0 9.296 0 4.87V1.468a.03.03 0 01.03-.03h4.573zM23.97 6.515a.03.03 0 01.03.03v2.833c0 4.11-3.354 7.442-7.491 7.442h-2.881v5.726h-2.305V14.53l.022-1.145c.294-3.843 3.526-6.87 7.469-6.87h5.155z"></path></g>
+                <defs><clipPath id="clip0"><path fill="#fff" d="M0 0h24v24H0z"></path></clipPath></defs>
+            </svg>
+        </a>
+    </div>
+</div></footer>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<script>
-	$(document).ready(function () {
-      $('.menuContainer').load('./_navbar.html');
-      $('.aside-left_container-post').load('./_aside-left-post.html');
-      $('.aside-right_container_article').load('./_aside-right-article.html');
-      $('.articles_container-post').load('./_articles_container-post.html');
-      $('.footer_container').load('./_footer.html');
-    });
-</script>
-</body>
-</html>
+
+</body></html>
